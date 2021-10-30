@@ -86,7 +86,7 @@ class NetworkingModel {
                     let cityWeather = CurrentWeatherModel()
                     
                     cityWeather.cityKey = cityID
-                    cityWeather.cityInfoName = cityInfo.countryLocalizedName
+                    cityWeather.cityInfoName = cityInfo.localizedName
                     cityWeather.weatherText = weather["WeatherText"].stringValue
                     cityWeather.epochTime = weather["EpochTime"].intValue
                     cityWeather.isDayTime = weather["IsDayTime"].boolValue
